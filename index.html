@@ -4,82 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iglesia Bautista Reformada - Mapa del Sitio</title>
+    <!-- Enlaza los estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu hoja de estilos CSS aquí -->
 </head>
 <body>
     <header>
-        <h1>Mapa del Sitio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a>
-                    <ul>
-                        <li><a href="historia.html">Historia</a></li>
-                        <li><a href="creencias.html">Creencias</a></li>
-                        <li><a href="liderazgo.html">Liderazgo</a></li>
+        <!-- Agrega estilos de Bootstrap al encabezado -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Iglesia Bautista Reformada</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <!-- Agrega otros elementos del menú aquí -->
+                        <!-- ... -->
                     </ul>
-                </li>
-                <li><a href="eventos.html">Eventos</a>
-                    <ul>
-                        <li><a href="calendario.html">Calendario de Eventos</a></li>
-                        <li><a href="retiros.html">Retiros</a></li>
-                        <li><a href="conferencias.html">Conferencias</a></li>
-                        <li><a href="actividades-ninos.html">Actividades para Niños</a></li>
-                    </ul>
-                </li>
-                <li><a href="predicaciones.html">Predicaciones</a>
-                    <ul>
-                        <li><a href="ultimas-predicaciones.html">Últimas Predicaciones</a></li>
-                        <li><a href="archivo-predicaciones.html">Archivo de Predicaciones</a></li>
-                        <li><a href="series-predicaciones.html">Series de Predicaciones</a></li>
-                    </ul>
-                </li>
-                <li><a href="ministerios.html">Ministerios</a>
-                    <ul>
-                        <li><a href="jovenes.html">Ministerio de Jóvenes</a></li>
-                        <li><a href="mujeres.html">Ministerio de Mujeres</a></li>
-                        <li><a href="hombres.html">Ministerio de Hombres</a></li>
-                        <li><a href="ninos.html">Ministerio de Niños</a></li>
-                        <li><a href="musica.html">Ministerio de Música</a></li>
-                    </ul>
-                </li>
-                <li><a href="servicios.html">Servicios</a>
-                    <ul>
-                        <li><a href="horarios-culto.html">Horarios de Culto</a></li>
-                        <li><a href="estudio-biblico.html">Estudio Bíblico</a></li>
-                        <li><a href="oracion-comunion.html">Oración y Comunión</a></li>
-                    </ul>
-                </li>
-                <li><a href="grupos-vida.html">Grupos de Vida</a>
-                    <ul>
-                        <li><a href="grupos-estudio.html">Grupos de Estudio Bíblico</a></li>
-                        <li><a href="grupos-oracion.html">Grupos de Oración</a></li>
-                    </ul>
-                </li>
-                <li><a href="recursos.html">Recursos</a>
-                    <ul>
-                        <li><a href="lecturas-recomendadas.html">Lecturas Recomendadas</a></li>
-                        <li><a href="enlaces-utiles.html">Enlaces Útiles</a></li>
-                        <li><a href="devocionales.html">Devocionales</a></li>
-                    </ul>
-                </li>
-                <li><a href="contacto.html">Contacto</a>
-                    <ul>
-                        <li><a href="info-contacto.html">Información de Contacto</a></li>
-                        <li><a href="formulario-contacto.html">Formulario de Contacto</a></li>
-                    </ul>
-                </li>
-                <li><a href="donaciones.html">Donaciones</a></li>
-                <li><a href="privacidad.html">Política de Privacidad</a></li>
-                <li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
-            </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <!-- Contenido de la página -->
+    <main class="container mt-4">
+        <h2>Bienvenidos al Mapa del Sitio de la Iglesia Bautista Reformada</h2>
+        <p>Explora las diferentes secciones y contenido de nuestra página web:</p>
 
-    <footer>
-        <p>&copy; 2023 Iglesia Bautista Reformada. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="index.html">Inicio - Página principal de la iglesia bautista reformada que da la bienvenida a los visitantes y ofrece una breve introducción a la comunidad.</a></li>
+            <li><a href="nosotros.html">Nosotros - Obtén información sobre la historia, creencias y liderazgo de nuestra iglesia.</a></li>
+                <!-- ... Agrega más descripciones aquí para los demás elementos del menú ... -->
+        </ul>
+    </main>
+
+    <footer class="mt-auto">
+        <div class="container text-center">
+            <p>&copy; 2023 Iglesia Bautista Reformada. Todos los derechos reservados.</p>
+        </div>
     </footer>
+
+    <!-- Agrega los scripts de Bootstrap al final del cuerpo -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
